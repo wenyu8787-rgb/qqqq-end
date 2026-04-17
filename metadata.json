@@ -1,0 +1,6 @@
+{
+  "name": "Lucky Spin Wheel",
+  "description": "A dynamic, physics-based raffle wheel for random selections.",
+  "requestFramePermissions": [],
+  "majorCapabilities": []
+}
