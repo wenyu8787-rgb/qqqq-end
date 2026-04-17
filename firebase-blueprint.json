@@ -1,0 +1,26 @@
+{
+  "entities": {
+    "SpinResult": {
+      "title": "SpinResult",
+      "description": "A record of a spin result.",
+      "type": "object",
+      "properties": {
+        "winner": {
+          "type": "string",
+          "description": "The name of the winner."
+        },
+        "timestamp": {
+          "type": "number",
+          "description": "The time of the spin."
+        }
+      },
+      "required": ["winner", "timestamp"]
+    }
+  },
+  "firestore": {
+    "/spinResults": {
+      "schema": "SpinResult",
+      "description": "Collection of spin results."
+    }
+  }
+}
